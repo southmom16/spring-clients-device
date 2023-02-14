@@ -5,7 +5,6 @@ import com.springboot.clientsDevice.entity.Device;
 import com.springboot.clientsDevice.repository.DeviceRepository;
 import com.springboot.clientsDevice.service.DeviceService;
 import org.springframework.stereotype.Service;
-
 import java.util.Optional;
 
 @Service
@@ -31,11 +30,5 @@ public class DeviceServiceImpl implements DeviceService {
 		Device device = optional.get();
 		return device;
 	}
-
-	public void updateDevice(long id){
-		deviceRepository.updateDeviceUsingQueryAnnotation("active", id);
-	}
-
-
 
 }

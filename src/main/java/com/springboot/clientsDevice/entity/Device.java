@@ -1,10 +1,7 @@
 package com.springboot.clientsDevice.entity;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
-import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
-
 import java.util.Date;
 
 @Entity
